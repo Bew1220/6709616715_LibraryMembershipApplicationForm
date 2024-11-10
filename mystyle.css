@@ -11,15 +11,54 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #eaeaea;
+    background-image: url(g);
+    background-size: cover;
+    background-position:center;
 }
 
 .container {
-    padding: 20px;
-    background-color:#909090 ;
+    border-radius: 20px;
+    padding: 50px;
+    background-color:#a1a1a1 ;
 }
 
 .headtopic {
-    font-size: 20pt;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 22pt;
     font-family: Itim;
+}
+
+.input-box {
+    margin: 8px;
+}
+
+.head {
+    font-size: 15pt;
+}
+
+.input-box input {
+    border-radius: 5px;
+    border: 1px solid;
+    height: 20px;
+    padding: 10px;
+}
+
+.input-box select {
+    border-radius: 5px;
+    border: 1px solid;
+    height: 20px;
+}
+
+.input-box button {
+    border-radius: 5px;
+    border: 1px solid;
+    height: 35px;
+    width: 40px;
+    margin-top: 10px;
+    float: right;
+}
+
+.choice {
+    font-size: 15pt;
 }

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>สมัครสมาชิกห้องสมุด</title>
     <link rel="stylesheet" href="mystyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
         
         <from>
-            <div class="headtopic">ลงทะเบียนสมัครสมาชิกห้องสมุด</div>
+            <div class="headtopic">ลงทะเบียนสมัครสมาชิกห้องสมุด</div><hr class="hr">
             <div class="input-box">
-                <id class="head">รหัสนักศึกษา</id>
-                <input type="text" name="รหัสนักศึกษา" size="20"/>
+                <i class='bx bxs-user-rectangle'></i>
+                <id class="head">รหัสนักศึกษา:</id>
+                <input type="text" name="รหัสนักศึกษา" size="20" />
             </div>
             <div class="input-box">
                 <id class="head">ชื่อ–นามสกุล(ไทย):</id>
@@ -23,8 +25,8 @@
             </div>
             <div class="input-box">
                 <id class="head">เพศ:</id>
-                <input type="radio" name="เพศ"/> ชาย
-                <input type="radio" name="เพศ"/> หญิง
+                <input type="radio" name="เพศ"/> <span class="choice">ชาย</span>
+                <input type="radio" name="เพศ"/> <span class="choice">หญิง</span>
             </div>
             <div class="input-box">
                 <id class="head">เดือน/วัน/ปี เกิด:</id>
@@ -85,8 +87,12 @@
             </div>
             <div class="input-box">
                 <id class="head">ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่:</id>
-                <input type="checkbox" name="notice"/> ใช่
-                <input type="checkbox" name="notice"/> ไม่
+                <input type="checkbox" name="notice" /> <span class="choice">ใช่</span> 
+                <input type="checkbox" name="notice"/> <span class="choice"> ไม่</span>
+            </div>
+            <div class="input-box">
+                <id class="head"></id>
+                <button type="submit">ส่ง</button>
             </div>
         </from>
     </div>
