@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(g);
+    background-image: url(resources/Screenshot.png);
     background-size: cover;
     background-position:center;
 }
@@ -19,7 +19,7 @@ body {
 .container {
     border-radius: 20px;
     padding: 50px;
-    background-color:#a1a1a1 ;
+    background-color:#dfdfdfc5 ;
 }
 
 .headtopic {
@@ -54,9 +54,12 @@ body {
     border-radius: 5px;
     border: 1px solid;
     height: 35px;
-    width: 40px;
+    width: 50px;
     margin-top: 10px;
     float: right;
+    background-color: #331d0ec5;
+    color: aliceblue;
+    font-size: 12pt;
 }
 
 .choice {
