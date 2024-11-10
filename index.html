@@ -6,7 +6,89 @@
 </head>
 <body>
     <div class="container">
-        <div class="headtopic">ลงทะเบียนสมัครสมาชิกห้องสมุด</div>
+        
+        <from>
+            <div class="headtopic">ลงทะเบียนสมัครสมาชิกห้องสมุด</div>
+            <div class="input-box">
+                <id class="head">รหัสนักศึกษา</id>
+                <input type="text" name="รหัสนักศึกษา" size="20"/>
+            </div>
+            <div class="input-box">
+                <id class="head">ชื่อ–นามสกุล(ไทย):</id>
+                <input type="text" name="ชื่อ–นามสกุล(ไทย)" size="20"/>
+            </div>
+            <div class="input-box">
+                <id class="head">ชื่อ–นามสกุล(อังกฤษ):</id>
+                <input type="text" name="ชื่อ–นามสกุล(อังกฤษ)" size="20"/>
+            </div>
+            <div class="input-box">
+                <id class="head">เพศ:</id>
+                <input type="radio" name="เพศ"/> ชาย
+                <input type="radio" name="เพศ"/> หญิง
+            </div>
+            <div class="input-box">
+                <id class="head">เดือน/วัน/ปี เกิด:</id>
+                <input type="date" name="date"/>
+            </div>
+            <div class="input-box">
+                <id class="head">คณะที่ศึกษา:</id>
+                <select name="คณะ">
+                    <option>เลือกคณะ</option>
+                    <option>คณะนิติศาสตร์</option>
+                    <option>คณะพาณิชยศาสตร์และการบัญชี</option>
+                    <option>คณะรัฐศาสตร์</option>
+                    <option>คณะเศรษฐศาสตร์</option>
+                    <option>คณะสังคมสงเคราะห์ศาสตร์</option>
+                    <option>คณะสังคมวิทยาและมานุษยวิทยา</option>
+                    <option>คณะศิลปศาสตร์</option>
+                    <option>คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                    <option>คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                    <option>คณะวิศวกรรมศาสตร์</option>
+                    <option>คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
+                    <option>คณะศิลปกรรมศาสตร์</option>
+                    <option>คณะแพทยศาสตร์</option>
+                    <option>คณะสหเวชศาสตร์</option>
+                    <option>คณะทันตแพทยศาสตร์</option>
+                    <option>คณะพยาบาลศาสตร์</option>
+                    <option>คณะสาธารณสุขศาสตร์</option>
+                    <option>คณะเภสัชศาสตร์</option>
+                    <option>คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <id class="head">Gmail:</id>
+                <input type="email" name="gmail"/>
+            </div>
+            <div class="input-box">
+                <id class="head">ประเภทของหนังสือที่สนใจ:</id>
+                <select name="ประเภทหนังสือ">
+                    <option>เลือก</option>
+                    <option>หนังสือเรียน</option>
+                    <option>หนังสือการ์ตูน</option>
+                    <option>เทพนิยาย</option>
+                    <option>หนังสือนวนิยายภาพ</option>
+                    <option>หนังสือภาพ</option>
+                    <option>กวีนิพนธ์</option>
+                    <option>หนังสืออัตชีวประวัติ</option>
+                    <option>หนังสือทางธุรกิจ</option>
+                    <option>ตำราอาหาร</option>
+                    <option>พจนานุกรม</option>
+                    <option>สารานุกรม</option>
+                    <option>หนังสือแนะนำ คู่มือ</option>
+                    <option>นิตยสาร</option>
+                    <option>นังสือปรัชญา</option>
+                    <option>หนังสือด้านศาสนา</option>
+                    <option>หนังสือเกี่ยวกับการท่องเที่ยว</option>
+                </select><br>
+                <input type="radio"/>อื่นๆ
+                <input type="text" name="ประเภทหนังสือ" size="8">
+            </div>
+            <div class="input-box">
+                <id class="head">ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่:</id>
+                <input type="checkbox" name="notice"/> ใช่
+                <input type="checkbox" name="notice"/> ไม่
+            </div>
+        </from>
     </div>
 </body>
 </html>

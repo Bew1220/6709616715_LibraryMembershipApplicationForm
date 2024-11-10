@@ -15,11 +15,11 @@ body {
 }
 
 .container {
+    padding: 20px;
     background-color:#909090 ;
 }
 
 .headtopic {
-    margin: 40px;
     font-size: 20pt;
     font-family: Itim;
 }
